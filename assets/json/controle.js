@@ -3,15 +3,18 @@ $(document).ready(function(){
 
       $.getJSON("assets/json/conteudo.json", function(result){
 
-        $.each(result, function(i, menu){
+        $.each(result, function(index){
+            
 
+            //menu
             const obj = result[0].menu;
-            const obj2 = result[0].gallery;
             const qtd = obj.length;
+            //galeria
+            const obj2 = result[0].gallery;
             const qtd2 = obj2.length;
 
             console.log(result); //mostra todo o JSON especifico
-            
+
             console.log(obj); //mostra todo o JSON especifico
 
             $(function () {
