@@ -1,0 +1,139 @@
+﻿[ {
+    "menu": [
+        { "name": "Como participar", "link": "#participar" },
+        { "name": "Meus números", "link": "#numeroSorte" },
+        { "name": "Produtos", "link": "#produtosParticipantes" },
+        {
+            "name": "Ver regulamento",
+            "link": "/nissin/assets/regulamento.pdf",
+            "externa": true
+        },
+        {
+            "name": "Clube Condor",
+            "link": "https://promocoescondor.com.br",
+            "externa": true
+        }
+    ],
+    "header": {
+        "left": "./assets/images/left-header.png",
+        "altLeft": "Promoção tempere sua sorte com Nissin e Condor",
+        "right": "./assets/images/sub.png",
+        "text3": "*Confira os produtos participantes.",
+        "text2": "concorra a prêmios incríveis",
+        "text1": "Compre os produtos selecionados da Nissin nas lojas Condor e"
+    },
+    "premios": {
+        "left": "./assets/images/premios-left.png",
+        "midle": "./assets/images/premios-midle.png",
+        "right": "./assets/images/premios-right.png"
+    },
+    "aceleradores": {
+        "left": "./assets/images/acelerador-left.png",
+        "right": "./assets/images/acelerador-right.png"
+    },
+    "numeroSorte": {
+        "titulo": "números da sorte",
+        "text": "Clique abaixo e consulte os seus números da sorte.",
+        "buttom": "Consultar os meus números",
+        "link": "https://promocoescondor.com.br"
+    },
+    "participar": {
+        "titulo": "como participar",
+        "rows": [
+            {
+                "number": 1,
+                "text": "Compre produtos da <span class='b-09'>Nissin</span>, participantes da campanha, em qualquer loja Condor."
+            },
+            {
+                "number": 2,
+                "text": "Forneça o seu CPF de cliente <span class='b-09'>Clube Condor</span> no momento da compra."
+            },
+            {
+                "number": 3,
+                "text": "Deixe o seu <span class='b-09'>cadastro no Clube Condor completo</span> e concorra. Boa sorte!"
+            }
+        ]
+    },
+    "download": {
+        "titulo": "baixe o aplicativo do clube condor para consultar as melhores ofertas.",
+        "iphone": "./assets/images/app_store.png",
+        "android": "./assets/images/play_store.png",
+        "linkI": "https://apps.apple.com/br/app/cl ube-condor/id1453391822",
+        "linkA": "https://play.google.com/store/apps/details?id=br.com.gsgroup.zoombox.condorsupermercados"
+    },
+    "produtosParticipantes": {
+        "titulo": "produtos participantes*",
+        "desktop": "./assets/images/produtos-desktop.png",
+        "mobile": "./assets/images/produtos-mobile.png"
+    },
+    "footer": {
+        "legal": "Poderá participar desta campanha promocional qualquer consumidor, pessoa física, participante do Clube Condor, com cadastro completo, maior de 18 anos, que efetuar uma compra de produtos participantes Nissin, em uma das lojas Condor, no período de 25/01/2020 a 28/03/2020. Certificado de autorização SECAP/MF Nº 04.007308/2020. Imagens meramente ilustrativas.",
+        "legal2": "*Consulte a disponibilidade dos produtos nas lojas Condor.",
+        "title": "@Condor 2020. Todos os direitos reservados.", 
+        "midia": [
+            {"fb": "https://www.facebook.com/RedeCondor/"},
+            {"ig": "https://www.instagram.com/redecondor/"},
+            {"tw": "https://twitter.com/RedeCondor"},
+            {"yt": "https://www.youtube.com/user/redecondor"}
+        ]
+    },
+    "sorteio": {       
+        "titulo": "sorteios",
+        "data": [
+            { 
+                "dia": "dd/mm/YYYY. <br><span class='loterica'>Resultado da loteria xxxx<span>",
+                "ganhadores": [
+                    {
+                        "nome": "Nome Um",
+                        "premio": "Ganhador Um",
+                        "condor": "Hiper Condor"
+                    },
+                    {
+                        "nome": "Nome Dois",
+                        "premio": "Ganhador Dois",
+                        "condor": "Hiper Condor"
+                    },
+                    {
+                        "nome": "Nome Três",
+                        "premio": "Ganhador Três",
+                        "condor": "Hiper Condor"
+                    }
+                ]
+            },
+            { 
+                "dia": "dd/mm/YYYY. <br><span class='loterica'>Resultado da loteria xxxx<span>",
+                "ganhadores": [
+                    {
+                        "nome": "Nome Um",
+                        "premio": "Ganhador Um",
+                        "condor": "Hiper Condor"
+                    },
+                    {
+                        "nome": "Nome Dois",
+                        "premio": "Ganhador Dois",
+                        "condor": "Hiper Condor"
+                    },
+                    {
+                        "nome": "Nome Três",
+                        "premio": "Ganhador Três",
+                        "condor": "Hiper Condor"
+                    }
+                ]
+            }
+        ]
+    },
+    "gallery": [
+        { 
+            "img": "./assets/gallery/01.jpg", 
+            "alt": "AAAA <br> BBBB"
+        },
+        {
+            "img": "./assets/gallery/02.jpg", 
+            "alt": "CCCC <br> DDDD"
+        },
+        {
+            "img": "./assets/gallery/03.jpg", 
+            "alt": "XXXX <br> YYYY"
+        }
+    ]
+} ]
