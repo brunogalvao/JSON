@@ -5,33 +5,29 @@ $(document).ready(function(){
 
         $.each(result, function(i, menu){
 
-            var obj = result[0].menu;
-            var obj2 = result[0].gallery;
-            var qtd = obj.length;
-            var qtd2 = obj2.length;
+            const obj = result[0].menu;
+            const obj2 = result[0].gallery;
+            const qtd = obj.length;
+            const qtd2 = obj2.length;
 
-            console.log(obj); //mostra todo o JSON
+            console.log(result); //mostra todo o JSON especifico
+            
+            console.log(obj); //mostra todo o JSON especifico
 
             $(function () {
-                var text = "";
-                var i = 0;
+                let text = "";
+                let i = 0;
 
                 for (let i = 0; i < qtd; ++i) {
 
-                    text += "<li><a href="+obj[i].link+">" + obj[i].name + "</a></li>";
+                    // text += "<li><a href="+obj[i].link+">" + obj[i].name + "</a></li>";
+                    text += "<li class='nav-item active'><a class='nav-link' href="+obj[i].link+">"+obj[i].name+"</a></li>"
 
                 }
 
-                $("nav > ul").html(text);
+                $(".navbar-nav").html(text);
             });
 
-            // $(" #menu ").append(
-
-            //     '<p>Nome: <b>' + obj[1].name + '</b> </p>',
-            //     '<p>Link: <b>' + obj[1].link + '</b> </p>',
-                
-
-            // );
             
             $('li').attr('src',obj2[0].img);
 
