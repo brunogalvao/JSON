@@ -55,7 +55,7 @@
         ]
     },
     "download": {
-        "titulo": "baixe o aplicativo do clube condor para consultar as melhores ofertas.",
+        "titulo": "baixe o aplicativo do <br /> <span>clube condor</span> para consultar as melhores ofertas.",
         "iphone": "./assets/images/app_store.png",
         "android": "./assets/images/play_store.png",
         "linkI": "https://apps.apple.com/br/app/cl ube-condor/id1453391822",
@@ -124,15 +124,15 @@
     },
     "gallery": [
         { 
-            "img": "./assets/gallery/01.jpg", 
+            "img": "./assets/galeria/01.jpg", 
             "alt": "AAAA <br> BBBB"
         },
         {
-            "img": "./assets/gallery/02.jpg", 
+            "img": "./assets/galeria/02.jpg", 
             "alt": "CCCC <br> DDDD"
         },
         {
-            "img": "./assets/gallery/03.jpg", 
+            "img": "./assets/galeria/03.jpg", 
             "alt": "XXXX <br> YYYY"
         }
     ]

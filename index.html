@@ -5,31 +5,111 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light text-uppercase">
+        <nav id="navCondor" class="navbar fixed-top navbar-expand-lg navbar-light text-uppercase pt-4 pb-4 shadow-sm">
             <a class="navbar-brand" href="#">
-                <img src="assets/imagens/logo.png" alt="">
+                <img src="assets/images/logo.png" alt="">
             </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCondor" aria-controls="navCondor" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navCondor">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                </li>
+
+
               </ul>
     
             </div>
         </nav>
 
-        <div class="row header">
-            <div class="col-sm-6">
-               <img src="" alt="">
+        <div id="scroll" data-spy="scroll" data-target="navCondor" data-offset="10">
+            
+            <div class="row header" id="header"></div>
+
+            <div class="row premios">
+                <div class="container">
+                    <div class="row"></div>
+                </div>
             </div>
-            <div class="col-sm-6">
+                
+            <div class="row aceleradores">
+                <div class="container">
+                    <div class="row"></div>
+                </div>
             </div>
+            
+            <div class="container">
+
+                <div class="row participar" id="participar"></div>
+
+                <div class="row numeroSorte" id="numeroSorte"></div>
+
+                <div class="row sorteio"></div>
+
+
+                <div class="row gallery">
+                    <div class="col-sm-12 col-lg-8 offset-lg-2 pt-5 pb-5">
+                        <div id="gallery" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                            
+                                <div class="carousel-item active" id="img1">
+                                    <img src="" class="d-block w-100" >
+
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div></div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item" id="img2">
+                                    <img src="" class="d-block w-100">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div></div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item" id="img3">
+                                    <img src="" class="d-block w-100">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div></div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+
+                            <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row download">
+                <div class="container">
+                    <div class="row"></div>
+                </div>
+            </div>
+
+            <div class="row produtosParticipantes" id="produtosParticipantes">
+                <div class="container">
+                    <div class="row"></div>
+                </div>
+            </div>
+
+            <div class="row footer">
+                <div class="container">
+                    <div class="row"></div>
+                </div>
+            </div>
+
         </div>
 
     </div>
