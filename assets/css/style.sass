@@ -8,12 +8,15 @@ $font: 'Lato', sans-serif
 $laranja: #ff8400
 $vermelho: #ff483c
 
+
 body,
 h1
     font-family: $font
 
+
 nav
     background: rgba(0,0,0, .6)
+
 
 .header,
 .premios,
@@ -47,9 +50,12 @@ nav
             padding-right: 2.5rem
             color: #ffedc2
             &:nth-child(2)
-                background: #ff483c
-                box-shadow: 2px 2px 3px #00000030
-                border-radius: 12px
+                color: $vermelho
+                text-shadow: 2px 2px 3px #4d4d4d
+                font-size: 2.6rem
+                line-height: 2.6rem
+                font-weight: 900
+                -webkit-text-stroke: .06rem white
             &:last-child
                 font-weight: 400
                 font-size: .8rem
@@ -72,11 +78,13 @@ nav
         border: 0px solid transparent
         box-shadow: inset 1px 1px 2px #4d4d4d
         font-size: 1.6rem
+
         p
             text-align: center
         
         span
             font-weight: 600
+
         h2
             color: #fff
             font-size: 2.6rem
@@ -84,11 +92,14 @@ nav
     h1
         color: $laranja
 
+
 .card1
     background-position: left top !important
 
+
 .card2
     background-position: 50% top !important
+
 
 .card3
     background-position: right top !important
@@ -98,6 +109,7 @@ nav
 .numeroSorte
     h1
         color: $laranja
+
     .btn
         border: 3px solid $laranja
         display: flex
@@ -117,8 +129,10 @@ nav
 
 //sorteioGanhador
 .sorteio
+
     h1
         color: $laranja
+
     h2
         background: $vermelho
         color: white
@@ -141,8 +155,8 @@ nav
             list-style: none
             border-bottom: 1px solid $laranja
 
-//download
 
+//download
 .download
     h3
         color: $laranja
@@ -150,6 +164,7 @@ nav
             color: white
             background: $laranja
             padding: 0 .3rem 0 .3rem
+
 
 //Footer
 .footer
@@ -187,7 +202,19 @@ nav
         &:last-child
             margin-right: 0
 
+
+
+//bootstrap
+.navbar-light .navbar-toggler
+    border: none
+    
+    
+.navbar-light .navbar-toggler-icon
+    background-image: url('../images/menu.svg')
+
+
 a.text-light
     &:hover
         background: #ff8400
         color: #fff !important
+        border-radius: 3px

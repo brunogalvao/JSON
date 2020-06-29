@@ -26,48 +26,19 @@ $(document).ready(function(){
             });
 
 
-
-
             //header
             
             $(' .header ').append(
-              '<div class="col-sm-8"><img src='+result[0].header.left+' class="img-fluid" alt="'+result[0].header.altLeft+'"></div><div class="col-sm-4 pt-5 pb-5"><span><p class="font-weight-bolder mb-0">'+result[0].header.text1+'</p><p class="font-weight-bolder mb-0">'+result[0].header.text2+'</p><p>'+result[0].header.text3+'</p></span><img src='+result[0].header.right+' class="img-fluid"></div>'
+              '<div class="col-sm-8"><img src='+result[0].header.left+' class="img-fluid" alt="'+result[0].header.altLeft+'"></div><div class="col-sm-4 pt-0 pb-5"><span><p class="font-weight-bolder mb-0">'+result[0].header.text1+'</p><p class="font-weight-bolder mb-0">'+result[0].header.text2+'</p><p class="pt-2">'+result[0].header.text3+'</p></span><img src='+result[0].header.right+' class="img-fluid"></div>'
             );
+
               
             //premios
 
-            // $(function(){
-
-            //   let pq = Object.keys(result[0].premios).length;
-            //   let premio = '';
-            //   let col = 12 / pq;
-
-            //   for (let i = 0; i < pq; i++) {
-                
-
-            //     if( i == 0 ){
-            //       let prod1 = 'left';
-            //       let path = result[0].premios;
-
-            //       premio += "<div class='col-sm-" + col + " pt-5'><img src="+ path + prod1 +"/></div>"; 
-            //     } 
-            //     if ( i == 1 ) {
-            //       let prod1 = 'midle';
-            //       premio += "<div class='col-sm-" + col + " pt-5'>"+ prod1 +"</div>"; 
-            //     } else {
-            //       let prod1 = 'right';
-            //       premio += "<div class='col-sm-" + col + " pt-5'>"+ prod1 +"</div>"; 
-            //     }
-
-            //   }
-
-            //   console.log(premio);
-            //   $(' .premios > .container > .row ').append(premio);
-            // });
-              
             $(' .premios > .container > .row ').append(
                 '<div class="col-sm-4 pt-5"><img src='+ result[0].premios.left +' class="img-fluid" /></div><div class="col-sm-4 pt-5"><img src='+ result[0].premios.midle +' class="img-fluid" /></div><div class="col-sm-4 pt-5"><img src='+ result[0].premios.right +' class="img-fluid" /></div>'
             );
+
 
             //aceleradores
 

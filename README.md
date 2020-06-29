@@ -2,5 +2,5 @@
 
 ## Instalação
 
-Apenas salvar no computador via **gitclone** ou **download dos arquivos**.
 
+Salvar no computador via **gitclone** ou **download dos arquivos**. Favor usar um programa server side (Mamp, Wamp ou similar).
